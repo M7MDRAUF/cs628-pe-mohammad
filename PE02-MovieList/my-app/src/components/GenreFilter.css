@@ -1,0 +1,44 @@
+/**
+ * GenreFilter.css
+ * Styles for the GenreFilter dropdown component.
+ * Centers the dropdown and provides clean, accessible styling.
+ */
+
+/* Container centers the dropdown horizontally */
+.genre-filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Dropdown select styling */
+.genre-select {
+  padding: 8px 16px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  min-width: 160px;
+}
+
+/* Focus styling for keyboard navigation */
+.genre-select:focus {
+  outline: 2px solid #4a90d9;
+  outline-offset: 1px;
+  border-color: #4a90d9;
+}
+
+/* Screen-reader-only class for accessibility labels */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

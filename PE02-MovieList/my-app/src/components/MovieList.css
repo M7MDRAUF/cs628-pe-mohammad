@@ -1,0 +1,30 @@
+/**
+ * MovieList.css
+ * Styles for the MovieList container component.
+ * Provides layout, spacing, and width constraints for the movie list.
+ */
+
+/* Main container — centered with maximum width for readability */
+.movie-list-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Page heading — centered and bold */
+.movie-list-heading {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 16px;
+}
+
+/* Container for all movie card items */
+.movie-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}

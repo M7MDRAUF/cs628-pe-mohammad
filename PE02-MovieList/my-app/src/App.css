@@ -1,0 +1,19 @@
+/**
+ * App.css
+ * Global application styles.
+ * Sets base styling for the page background and layout.
+ */
+
+/* Reset and global box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Root application container */
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
