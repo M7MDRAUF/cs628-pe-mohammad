@@ -1,8 +1,4 @@
-# PE02 - Movie List
-
-## CS 628 - Full-Stack Development
-
-### Mohammed Rauf
+## PE02 - Movie List — CS 628 Full-Stack Development — Mohammed Rauf
 
 ---
 
