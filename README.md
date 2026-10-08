@@ -1,6 +1,6 @@
 # CS 628 - Programming Exercises
 
-## Mohammed Rauf
+## Mohammad Ra'uf Naser Al Batayneh
 
 This repository contains the programming exercises for CS 628 Full-Stack Development.
 
